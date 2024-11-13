@@ -1,5 +1,5 @@
 let brandtitle = document.querySelector('.brand-title');
-document.title = brandtitle.innerText = JSON.parse(localStorage.getItem('currentBrand'));
+//document.title = brandtitle.innerText = JSON.parse(localStorage.getItem('currentBrand'));
 
 let arrBestSellers = JSON.parse(localStorage.getItem('BestSellers'));
 let bestSellersElement = document.querySelector('.content-dsSanpham');
