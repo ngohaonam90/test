@@ -1,0 +1,25 @@
+.container{
+    width: 960px;
+   
+   
+    height: 1000px;
+}
+ .form-control:focus {
+        border-color: #ff69b4 !important;   
+        box-shadow: 0 0 0 0.2rem #ffd1ec80 !important; 
+        background-color: #fff0fa !important; 
+    }
+.nav-link{
+    font-size: 13px;
+     color: #646464;
+     font-weight: bold;
+    
+}
+:hover.nav-link{
+    color: #ff69b4;
+}
+.nav-link.active {
+   
+    color: #ff69b4 !important;
+    
+}
